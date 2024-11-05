@@ -1,0 +1,9 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    min-height: 100dvh;
+    padding: 2rem;
+}
+
