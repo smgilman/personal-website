@@ -14,58 +14,104 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --header-height: 10px;
 }
 
-/* a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* about section */
 
-body {
-  margin: 0;
+.about-section {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.about-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  font-size:larger;
+  margin-top: 50px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.about-image {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+  padding-right: 2rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
+.about-text {
+  flex: 1;
+  max-width: 50%;
+  padding-left: 2rem;
+}
+
+/* how to grading sheet */
+
+.todo-grading-page {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: var(--header-height, 64px);
+}
+
+.sidebar {
+  position: sticky;
+  top: calc(var(--header-height, 64px) + 3rem);
+  height: fit-content;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 1rem;
+  border-right: 1px solid #eaeaea;
+}
+
+.content {
+  flex: 1;
+  max-width: 1000px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content-heading {
+  scroll-margin-top: calc(var(--header-height, 64px) + 3rem);
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-item {
+  margin: 0.5rem 0;
+}
+
+.toc-item a {
+  text-decoration: none;
+  color:plum;
+  transition: color 0.2s;
+  display: block;
+  padding: 0.25rem 0;
+}
+
+.toc-item a:hover {
+  color:lightskyblue;
+}
+
+.level-2 {
+  margin-left: 1rem;
+}
+
+.content h1,
+.content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding-bottom: 4rem;
+}

@@ -1,16 +1,15 @@
 import React from 'react';
-import '../styles/global.css';
+import { Link } from 'react-router-dom';
 import { CiHome, CiUser, CiFolderOn } from "react-icons/ci";
-import About from '../pages/About';
-import Projects from '../pages/Projects';
+import '../styles/global.css';
 
 function Header() {
     return (
         <header className='header'>
             <nav>
-                <a href='#home'><CiHome />Home</a>
-                <a href='#about'><CiUser />About</a>
-                <a href='#projects'><CiFolderOn />Projects</a>
+                <Link to="/"><CiHome /><span>Home</span></Link>
+                <Link to="/about"><CiUser /><span>About</span></Link>
+                <Link to="/projects"><CiFolderOn /><span>Projects</span></Link>
             </nav>
         </header>
     );
