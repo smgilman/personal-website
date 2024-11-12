@@ -5,14 +5,14 @@ import Projects from './Projects'
 function Home() {
     return (
         <div>
-            <section id="me" className="me-section">
-                <div className="me-content">
+            <section id="about" className="about-section">
+                <div className="about-content">
                     <img
                         src="/me.png"
                         alt="Me! (Sharon Gilman)"
-                        className="me-image"
+                        className="about-image"
                     />
-                    <div className="me-text">
+                    <div className="about-text">
                         <p>
                             Hello! My name is Sharon Gilman. I am a recent Industrial and Systems Engineering graduate from 
                             North Carolina State University with a passion for building scalable programs. I have experience 
@@ -24,10 +24,6 @@ function Home() {
                         </p>
                     </div>
                 </div>
-            </section>
-
-            <section id="about">
-                <About />
             </section>
 
             <section id="projects">

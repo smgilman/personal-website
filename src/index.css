@@ -11,7 +11,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color:#152238;
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,44 +20,16 @@
   --header-height: 10px;
 }
 
-body {
-  background: linear-gradient(120deg, slateblue, lightskyblue);
-  background-size: 200% 200%;
-  animation: gradientShift 5s ease infinite;
-}
+/* about section */
 
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* Gradient aura */
-
-.cursor-gradient {
-  position: fixed;
-  width: 250px;
-  height: 250px;
-  pointer-events: none;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(32, 49, 181, 1), transparent);
-  filter: blur(15px);
-  transform: translate(-50%, -50%);
-  transition: transform 0.05s ease-out;
-  mix-blend-mode: screen; /* Optional for a glowing effect */
-  z-index: 1000;
-}
-
-/* me section */
-
-.me-section {
+.about-section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
 }
 
-.me-content {
+.about-content {
   display: flex;
   align-items: center;
   width: 100%;
@@ -66,18 +38,17 @@ body {
   margin-top: 50px;
 }
 
-.me-image {
+.about-image {
   flex: 1;
   max-width: 50%;
   height: auto;
   padding-right: 2rem;
 }
 
-.me-text {
+.about-text {
   flex: 1;
   max-width: 50%;
   padding-left: 2rem;
-  color: thistle;
 }
 
 /* how to grading sheet */
