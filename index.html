@@ -12,5 +12,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // JavaScript for cursor gradient
+      const cursorGradient = document.createElement('div');
+      cursorGradient.classList.add('cursor-gradient');
+      document.body.appendChild(cursorGradient);
+  
+      document.addEventListener('mousemove', (e) => {
+        cursorGradient.style.left = `${e.pageX}px`;
+        cursorGradient.style.top = `${e.pageY}px`;
+      });
+    </script>
   </body>
 </html>
