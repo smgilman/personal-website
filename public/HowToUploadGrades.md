@@ -108,7 +108,7 @@
         
 ## Project Grading
     
-- Go to ***each***  CSC 216 Moodle page and navigate to the project you’ll be uploading grades for
+- Go to ***each*** CSC 216 Moodle page and navigate to the project you’ll be uploading grades for
 
     - ex. CSC 216 003 Moodle → Guided Project 3 → GP3 → View All Submissions → Grading action = Download grading worksheet
 
@@ -158,6 +158,7 @@
 ## Uploading Lab Grades
     
 - **You should already have the downloaded grade sheet from the Moodle assignment you’re uploading grades for**
+
 - Navigate to Moodle Assignment → View all submissions → Grading action → “Upload grading worksheet”
 
     - Upload the downloaded grade sheet and select “Allow updating records that have been modified more recently in Moodle than in the spreadsheet.”
@@ -216,7 +217,7 @@
 
 <aside>
 
-Feedback files will not be generated for Project Part 1 assignments, students should have submitted regrade requests on Gradescope
+    Feedback files will not be generated for Project Part 1 assignments, students should have submitted regrade requests on Gradescope
 
 </aside>
 
@@ -250,9 +251,9 @@ Feedback files will not be generated for Project Part 1 assignments, students sh
 
 <aside>
 
-NOTE: You don’t *need* a separate sheet for each of the sections, Moodle will only upload the students that are in the section you’re uploading grades to.
+    NOTE: You don’t *need* a separate sheet for each of the sections, Moodle will only upload the students that are in the section you’re uploading grades to.
 
-For example, if I were uploading P1P1 grades to Moodle in section 002, I could use the same sheet for sections 001, 003, etc. because Moodle will only upload the students in section 002 from the sheet. 
+    For example, if I were uploading P1P1 grades to Moodle in section 002, I could use the same sheet for sections 001, 003, etc. because Moodle will only upload the students in section 002 from the sheet. 
 
 </aside>
 
