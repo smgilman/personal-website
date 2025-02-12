@@ -16,7 +16,7 @@ function Home() {
                         <p>
                             Hello! My name is Sharon Gilman. I am a recent Industrial and Systems Engineering graduate from 
                             North Carolina State University with a passion for building scalable programs. I have experience 
-                            in Java, Javascript, Python, and React. I love creating engaging, user-friendly web experiences.
+                            in Java, Javascript, Python, and React.
                         </p>
                         <p>
                             When I’m not coding, I enjoy hiking, reading, and playing video games. My goal is to continually 
