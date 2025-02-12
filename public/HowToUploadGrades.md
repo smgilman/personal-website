@@ -238,9 +238,9 @@ Feedback files will not be generated for Project Part 1 assignments, students sh
 
 - Go to Gradescope and download the STP and Design grades as an Excel sheet
 
-    [Gradescope](/gradescope.png)
+    ![Gradescope](/gradescope.png)
 
-    [Downloaded Excel sheet from Gradescope](/excel-sheet.png)
+    ![Downloaded Excel sheet from Gradescope](/excel-sheet.png)
 
 - Copy and paste the columns into their respective GSSTPExport and GSDesignExport sheets on the grade sheet
 
