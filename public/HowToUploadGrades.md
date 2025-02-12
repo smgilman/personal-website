@@ -215,7 +215,7 @@
 
 ## Uploading Project Part 1 Grades
 
-> Feedback files will **not** be generated for Project Part 1 assignments, students should have submitted regrade requests on Gradescope
+> **Feedback files will not be generated for Project Part 1 assignments, students should have submitted regrade requests on Gradescope**
 >
 
 - Download each PXP1 grade sheet from all CSC 216 Moodle sections
@@ -246,10 +246,10 @@
 
 - Once you’ve been given the clear from Dr. Heckman, copy and paste columns A-I from the “MOODLE_INFO” sheet into your downloaded grade sheet
 
-    > NOTE: You don’t *need* a separate sheet for each of the sections, Moodle will only upload the students that are in the section you’re uploading grades to.
+    > **NOTE: You don’t *need* a separate sheet for each of the sections, Moodle will only upload the students that are in the section you’re uploading grades to.**
     >
     >
-    > For example, if I were uploading P1P1 grades to Moodle in section 002, I could use the same sheet for sections 001, 003, etc. because Moodle will only upload the students in section 002 from the sheet. 
+    > **For example, if I were uploading P1P1 grades to Moodle in section 002, I could use the same sheet for sections 001, 003, etc. because Moodle will only upload the students in section 002 from the sheet.**
     >
 
 
