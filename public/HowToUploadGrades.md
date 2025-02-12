@@ -215,11 +215,7 @@
 
 ## Uploading Project Part 1 Grades
 
-<aside>
-
-    Feedback files will not be generated for Project Part 1 assignments, students should have submitted regrade requests on Gradescope
-
-</aside>
+    | Feedback files will not be generated for Project Part 1 assignments, students should have submitted regrade requests on Gradescope
 
 - Download each PXP1 grade sheet from all CSC 216 Moodle sections
 
